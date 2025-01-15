@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  background: #121212;
+  color: #ffffff;
+}
+
+.controls {
+  margin: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  background: rgb(73, 74, 74);
+  color: white;
+  border: 0.5px solid whitesmoke;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #959798;
+}
+
+canvas {
+  border: 1px solid whitesmoke;
+  background: #282a2f;
+}
+#generatearray{
+  margin: 5px;
+  padding: 10px 20px;
+  background:wheat;
+  color: rgb(0, 0, 0);
+  border: 1px solid whitesmoke;
+  cursor: pointer;
+}
+#generatearray:hover{
+  background: #959798;
+}
+
